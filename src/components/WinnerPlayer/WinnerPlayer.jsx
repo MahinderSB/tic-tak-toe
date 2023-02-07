@@ -1,7 +1,7 @@
 const WinnerPlayer = (props) => {
     return(
         <>
-            <p>Next Player: {props.value}</p>
+            <p className="text-center">Next Player: {props.value}</p>
         </>
     );
 }
